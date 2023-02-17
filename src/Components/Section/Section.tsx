@@ -9,8 +9,10 @@ function Section(): JSX.Element {
     const buttonTitle = Object.keys(sections);
     const [sectionTitle, setSectionTile] = useState(`${sections['Product Dev'].title}`);
     const [sectionContent, setSectionContent] = useState(`${sections['Product Dev'].content}`);
+    const [activeButton, setActiveButton] = useState('Product Dev');
 
     const changeSection = (title: string) => {
+        setActiveButton(title);
         setSectionTile(sections[title].title);
         setSectionContent(sections[title].content);
     };
@@ -21,7 +23,7 @@ function Section(): JSX.Element {
                 {buttonTitle.map((title, key) => {
                     return (
                         <button
-                            className='buttonInactive m-1'
+                            className={`m-1 ${activeButton === title ? 'buttonActive' : 'buttonInactive'}`}
                             key={key}
                             onClick={() => {
                                 changeSection(title);
@@ -35,6 +37,7 @@ function Section(): JSX.Element {
 
             <div>
                 <div
+                    className='mb-1 w-80'
                     style={{
                         backgroundImage: `url(${sectionTitleImg})`,
                         backgroundSize: 'cover',
@@ -43,6 +46,7 @@ function Section(): JSX.Element {
                     {sectionTitle}
                 </div>
                 <div
+                    className='p-2'
                     style={{
                         backgroundImage: `url(${sectionContentImg})`,
                         backgroundSize: 'cover',

@@ -8,3 +8,15 @@
     box-shadow: -1px 6px 0 rgb(255 0 0 / 26%);
     border: 2px solid #a85cfc;
 }
+
+.buttonActive {
+    width: 90px;
+    height: 41px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #df8dfc;
+    border-radius: 12px;
+    box-shadow: -1px 6px 0 rgb(255 0 0 / 26%);
+    border: 2px solid #a85cfc;
+}
