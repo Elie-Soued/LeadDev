@@ -5,9 +5,9 @@
 }
 
 .leadDevTitle {
-    text-align: left;
     font-size: 49px;
     letter-spacing: 0.04em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .leadDevUnderTitle {

@@ -18,7 +18,7 @@ function Section(): JSX.Element {
     };
 
     return (
-        <div>
+        <div className='pt-5'>
             <div className='d-flex justify-content-center align-items-center mb-2'>
                 {buttonTitle.map((title, key) => {
                     return (
@@ -41,6 +41,9 @@ function Section(): JSX.Element {
                     style={{
                         backgroundImage: `url(${sectionTitleImg})`,
                         backgroundSize: 'cover',
+                        fontSize: '20px',
+                        fontWeight: '700',
+                        fontFamily: " 'Montserrat', sans-serif;",
                     }}
                 >
                     {sectionTitle}
@@ -51,7 +54,9 @@ function Section(): JSX.Element {
                         backgroundImage: `url(${sectionContentImg})`,
                         backgroundSize: 'cover',
                         color: 'black',
-                        minHeight: '134px',
+                        minHeight: '160px',
+                        fontSize: '19px',
+                        textAlign: 'left',
                     }}
                 >
                     {sectionContent}
