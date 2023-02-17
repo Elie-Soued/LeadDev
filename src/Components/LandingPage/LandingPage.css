@@ -1,8 +1,28 @@
 .App {
     text-align: center;
     min-height: 100vh;
-    font-size: calc(10px + 2vmin);
     color: white;
+}
+
+.leadDevTitle {
+    text-align: left;
+    font-size: 49px;
+    letter-spacing: 0.04em;
+}
+
+.leadDevUnderTitle {
+    text-align: start;
+    font-size: 24px;
+}
+
+.ourMission {
+    font-size: 31px;
+    font-family: 'ITF Devanagari Marathi';
+}
+
+.empowering {
+    font-size: 20px;
+    font-family: 'ITF Devanagari Marathi';
 }
 
 @keyframes App-logo-spin {

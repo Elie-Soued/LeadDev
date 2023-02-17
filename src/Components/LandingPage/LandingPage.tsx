@@ -7,36 +7,33 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function LandingPage() {
     return (
-        <div
-            className='App  '
-            style={{ border: '4px dashed red', backgroundImage: `url(${background})`, backgroundSize: 'cover' }}
-        >
-            <div
-                className='d-flex flex-column justify-content-around '
-                style={{ border: '4px dashed green', height: '100vh' }}
-            >
-                {/** Title */}
-
-                <div style={{ border: '4px dashed white' }}>
+        <div className='App  ' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover' }}>
+            <div className='d-flex flex-column justify-content-center pt-5 ' style={{ minHeight: '100vh' }}>
+                <div>
                     <div>
-                        <b>Lead Dev.</b>
+                        <b className='leadDevTitle'>Lead Dev.</b>
                     </div>
 
                     <div>
-                        <b>Leading the way in Web3.0 Development and Consultancy</b>
+                        <b className='leadDevUnderTitle'>Leading the way in Web3.0 Development and Consultancy</b>
                     </div>
                 </div>
 
                 {/** Section */}
-                <div style={{ border: '4px dashed white' }}>
+                <div className='mt-5'>
                     <Section></Section>
                 </div>
 
                 {/** paragraph */}
 
-                <div style={{ border: '4px dashed white' }}>
+                <div className='mt-5'>
+                    <b className='ourMission'>Our Mission</b>
+                    <br></br>
+                    <b className='empowering'>Empowering Clarity & Accessibility in the world of blockchain.</b>
+                    <br></br>
+                    <br></br>
                     <p>
-                        LeadDev is a professional team of experts in the fields of blockchain technology, smart
+                        <b>LeadDev</b> is a professional team of experts in the fields of blockchain technology, smart
                         contracts, and NFTs. Our expertise in product development, smart contract creation, and
                         blockchain consulting positions us to deliver customized solutions that meet the unique needs of
                         each client. We understand the complexities of blockchain technology and are dedicated to
@@ -46,6 +43,14 @@ function LandingPage() {
                         unparalleled service and delivering the optimal solution for our clients' blockchain
                         requirements.
                     </p>
+                </div>
+
+                {/** Get in touch */}
+
+                <div className='mt-5'>
+                    <b className='ourMission'>Contact us</b>
+                    <br></br>
+                    <p>PilexLaflex@filsdeouf.com</p>
                 </div>
             </div>
         </div>

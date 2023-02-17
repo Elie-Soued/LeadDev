@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Sections.css';
 import { sections } from '../../constants';
 import sectionTitleImg from '../../Images/sectionTitle.png';
 import sectionContentImg from '../../Images/sectionContent.png';
@@ -16,10 +17,11 @@ function Section(): JSX.Element {
 
     return (
         <div>
-            <div>
+            <div className='d-flex justify-content-center align-items-center mb-2'>
                 {buttonTitle.map((title, key) => {
                     return (
                         <button
+                            className='buttonInactive m-1'
                             key={key}
                             onClick={() => {
                                 changeSection(title);
@@ -30,6 +32,7 @@ function Section(): JSX.Element {
                     );
                 })}
             </div>
+
             <div>
                 <div
                     style={{
