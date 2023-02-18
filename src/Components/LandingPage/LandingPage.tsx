@@ -30,21 +30,22 @@ function LandingPage() {
                 <div className='mt-5' style={{ textAlign: 'left' }}>
                     <b className='ourMission d-flex justify-content-start p-2'>Our Mission</b>
 
-                    <b className='empowering d-flex justify-content-start p-2' id='title1'>
+                    <b className='empowering d-flex justify-content-start p-2'>
                         Empowering Clarity & Accessibility in the world of blockchain.
                     </b>
 
                     <br></br>
 
-                    <p className='p-2' id='paragraph1'>
-                        is a professional team of experts in the fields of blockchain technology, smart contracts, and
-                        NFTs. Our expertise in product development, smart contract creation, and blockchain consulting
-                        positions us to deliver customized solutions that meet the unique needs of each client. We
-                        understand the complexities of blockchain technology and are dedicated to educating our clients
-                        on how to effectively leverage these technologies for their business needs. In addition, our
-                        specialization in NFT creation enables us to support our clients in creating powerful,
-                        brand-representing assets. At Lead Dev, we are committed to delivering unparalleled service and
-                        delivering the optimal solution for our clients' blockchain requirements.
+                    <p className='p-2'>
+                        <b>Lead Dev</b> is a professional team of experts in the fields of blockchain technology, smart
+                        contracts, and NFTs. Our expertise in product development, smart contract creation, and
+                        blockchain consulting positions us to deliver customized solutions that meet the unique needs of
+                        each client. We understand the complexities of blockchain technology and are dedicated to
+                        educating our clients on how to effectively leverage these technologies for their business
+                        needs. In addition, our specialization in NFT creation enables us to support our clients in
+                        creating powerful, brand-representing assets. At Lead Dev, we are committed to delivering
+                        unparalleled service and delivering the optimal solution for our clients' blockchain
+                        requirements.
                     </p>
                 </div>
             </div>
