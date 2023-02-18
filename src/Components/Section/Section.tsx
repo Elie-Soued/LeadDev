@@ -35,15 +35,16 @@ function Section(): JSX.Element {
                 })}
             </div>
 
-            <div>
+            <div className=' d-flex flex-column align-items-center justify-content-center'>
                 <div
-                    className='mb-1 w-80'
+                    className='mb-1'
                     style={{
                         backgroundImage: `url(${sectionTitleImg})`,
                         backgroundSize: 'cover',
                         fontSize: '20px',
                         fontWeight: '700',
                         fontFamily: " 'Montserrat', sans-serif;",
+                        width: '95%',
                     }}
                 >
                     {sectionTitle}
@@ -54,9 +55,10 @@ function Section(): JSX.Element {
                         backgroundImage: `url(${sectionContentImg})`,
                         backgroundSize: 'cover',
                         color: 'black',
-                        minHeight: '160px',
+                        minHeight: '190px',
                         fontSize: '19px',
                         textAlign: 'left',
+                        width: '95%',
                     }}
                 >
                     {sectionContent}
