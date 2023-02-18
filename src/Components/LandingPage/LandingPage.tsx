@@ -48,6 +48,10 @@ function LandingPage() {
                         requirements.
                     </p>
                 </div>
+
+                <div className='mt-5'>
+                    <p>contactus@leaddev.com</p>
+                </div>
             </div>
         </div>
     );
