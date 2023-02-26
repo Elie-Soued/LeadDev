@@ -19,7 +19,7 @@ function Section(): JSX.Element {
 
     return (
         <div className='pt-5'>
-            <div className='d-flex justify-content-center align-items-center mb-2'>
+            <div className='d-flex justify-content-center align-items-center mb-3'>
                 {buttonTitle.map((title, key) => {
                     return (
                         <button
@@ -42,9 +42,12 @@ function Section(): JSX.Element {
                         backgroundImage: `url(${sectionTitleImg})`,
                         backgroundSize: 'cover',
                         fontSize: '20px',
+                        minHeight: '42px',
                         fontWeight: '700',
                         fontFamily: " 'Montserrat', sans-serif;",
                         width: '95%',
+                        borderTopLeftRadius: '10px',
+                        borderTopRightRadius: '10px',
                     }}
                 >
                     {sectionTitle}
@@ -59,6 +62,8 @@ function Section(): JSX.Element {
                         fontSize: '19px',
                         textAlign: 'left',
                         width: '95%',
+                        borderBottomLeftRadius: '10px',
+                        borderBottomRightRadius: '10px',
                     }}
                 >
                     {sectionContent}
