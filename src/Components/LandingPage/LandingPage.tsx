@@ -50,7 +50,9 @@ function LandingPage() {
                 </div>
 
                 <div className='mt-5'>
-                    <p>contactus@leaddev.com</p>
+                    <p>
+                        <b>contactus@leaddev.com</b>
+                    </p>
                 </div>
             </div>
         </div>
