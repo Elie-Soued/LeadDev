@@ -46,24 +46,26 @@ function Section(): JSX.Element {
                         fontWeight: '700',
                         fontFamily: " 'Montserrat', sans-serif;",
                         width: '95%',
-                        borderTopLeftRadius: '10px',
-                        borderTopRightRadius: '10px',
+                        borderTopLeftRadius: '15px',
+                        borderTopRightRadius: '15px',
+                        border: '2px solid #ef5dA8 ',
                     }}
                 >
                     {sectionTitle}
                 </div>
                 <div
-                    className='p-2'
+                    className='p-3'
                     style={{
                         backgroundImage: `url(${sectionContentImg})`,
                         backgroundSize: 'cover',
                         color: 'black',
-                        minHeight: '190px',
+                        minHeight: '207px',
                         fontSize: '19px',
-                        textAlign: 'left',
+                        textAlign: 'justify',
                         width: '95%',
-                        borderBottomLeftRadius: '10px',
-                        borderBottomRightRadius: '10px',
+                        borderBottomLeftRadius: '18px',
+                        borderBottomRightRadius: '18px',
+                        border: '2px solid #ef5dA8 ',
                     }}
                 >
                     {sectionContent}

@@ -10,11 +10,11 @@ function LandingPage() {
             <div className='d-flex flex-column justify-content-center pt-5 ' style={{ minHeight: '100vh' }}>
                 <div className='pt-5'>
                     <div className='d-flex justify-content-start pt-5'>
-                        <b className='leadDevTitle p-2 pb-0'>Lead Dev.</b>
+                        <b className='leadDevTitle p-3 pb-0'>Lead Dev.</b>
                     </div>
 
                     <div className='d-flex justify-content-start'>
-                        <b className='leadDevUnderTitle p-2 pt-0 '>
+                        <b className='leadDevUnderTitle p-3 pt-0 '>
                             Leading the way in Web3.0 Development and Consultancy
                         </b>
                     </div>
@@ -28,15 +28,18 @@ function LandingPage() {
                 {/** paragraph */}
 
                 <div className='mt-5' style={{ textAlign: 'left' }}>
-                    <b className='ourMission d-flex justify-content-start p-2'>Our Mission</b>
+                    <b className='ourMission d-flex justify-content-start p-3'>Our Mission</b>
 
-                    <b className='empowering d-flex justify-content-start p-2'>
+                    <b className='empowering d-flex justify-content-start p-3'>
                         Empowering Clarity & Accessibility in the world of blockchain.
                     </b>
 
-                    <br></br>
-
-                    <p className='p-2'>
+                    <p
+                        className='p-3'
+                        style={{
+                            textAlign: 'justify',
+                        }}
+                    >
                         <b>Lead Dev</b> is a professional team of experts in the fields of blockchain technology, smart
                         contracts, and NFTs. Our expertise in product development, smart contract creation, and
                         blockchain consulting positions us to deliver customized solutions that meet the unique needs of
@@ -49,9 +52,9 @@ function LandingPage() {
                     </p>
                 </div>
 
-                <div className='mt-5'>
+                <div className='mt-1'>
                     <p>
-                        <b>contactus@leaddev.com</b>
+                        <b style={{ color: '#ef5dA8' }}>contactus@leaddev.com</b>
                     </p>
                 </div>
             </div>
